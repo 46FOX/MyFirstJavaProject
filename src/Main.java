@@ -8,6 +8,9 @@ public class Main {
         System.out.println("hello paul");
 System.out.println("hello");
 System.out.println("paul");
+byte mybyte1 = 4+6;
+System.out.println(mybyte1);
+
 
     }
 }
