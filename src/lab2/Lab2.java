@@ -24,7 +24,16 @@ public class Lab2 {
         System.out.println(six);
 
         System.out.println(java);
+
         System.out.println(robot);
+
+        System.out.println("farenheit to celsius:" + fToC(45));
+
+        System.out.println("inch to meter:" + iToM(3));
+
+        speed(90,0,1,30);
+
+
 
 
 
@@ -58,4 +67,29 @@ public class Lab2 {
 
 
     static String robot = "  +\"\"\"\"\"+ \n [| o o |]\n  |  ^  |\n  | '_' |\n  +_____+";
+
+
+    static double fToC(double farenheit){
+        double celsius = 5/9.0 *(farenheit-32);
+        return celsius;
+    }
+
+    static double iToM(double inch) {
+        double meter = inch / 39.37;
+        System.out.println(meter);
+        double result2 = Double. valueOf(meter);
+        return result2;
+    }
+
+    static void speed (double distance, int hour, int minutes, int seconds){
+        double mps = distance /((hour*3600)+(minutes*60)+seconds);
+        System.out.println("meter per second:" + mps);
+        double kph = mps + 3.6;
+        System.out.println("km per hour" + kph);
+        double milesph = kph / 1.609;
+        System.out.println("miles per hour :" + milesph);
+
+    }
+
+
     }
