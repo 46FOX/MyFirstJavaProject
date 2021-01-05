@@ -8,9 +8,9 @@ public class AppMain {
         Dog mydog = new Dog();
 
         System.out.println(mydog.age);
-        System.out.println(mydog.name);
+        System.out.println(mydog.getName());
         mydog.bark();
-        mydog.name = "becs";
+        mydog.setName("becs");
         System.out.println(mydog.name);
 
 

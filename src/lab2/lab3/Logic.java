@@ -81,23 +81,32 @@ public class Logic {
     }
 
     public boolean isNumberEven(int number2) {
-        if ((number2 % 2) == 0 ) {
-            return true ;
+        if ((number2 % 2) == 0) {
+            return true;
         } else {
-            return false;}
+            return false;
+        }
 
     }
 
 
-    public boolean isEligibleToVote(double p ){
+    public boolean isEligibleToVote(double p) {
         if (p > 18) {
-            return true ;
+            return true;
         } else {
-            return false ;
+            return false;
         }
     }
 
+    public int biggestNumber(int p, int q, int r) {
+        if (p > q && p > r) {
+            return p;
+        } else if (p > q && p > r) {
+            return q;
+        } else {
+            return r;
+        }
 
 
-
+    }
 }
