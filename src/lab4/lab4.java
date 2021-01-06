@@ -14,7 +14,6 @@ public class lab4 {
 //        from a given number to a lower given number
 
 
-        While aWhile = new While();
 
 
         //             logic.countToOneHundred(46);
@@ -41,5 +40,50 @@ public class lab4 {
 
 
         logic.asterix();
+
+
+        While aWhile = new While();
+
+        // print to 100
+
+        aWhile.printToOneHundred(46);
+
+        // print to -100
+
+        aWhile.countToMinus(146);
+
+       // count x to y
+
+        aWhile.countXToY(46,9);
+
+      // count ascending
+
+      aWhile.countAscending(23 ,46);
+
+       // even number 1 to 100
+
+        aWhile.evenNumber();
+
+        // odd number 1 to 100
+
+        aWhile.oddNumber();
+
+        // fibonacci
+
+        aWhile.fibonacci();
+
+
+        // sum 111/8899
+
+        aWhile.getSum();
+
+       // media numerelor divizibile cu 7
+
+        System.out.println(aWhile.between(46,9));
+
+       // CozaLozaWoza
+
+        aWhile.coza();
+
     }
 }
