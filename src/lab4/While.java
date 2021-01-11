@@ -156,26 +156,26 @@ public class While {
             if (number % 3 == 0 && number % 7 == 0 && number % 5 == 0 ) {
                 System.out.println("CozaLozaWoza" + "");
 
-            } else if (number % 5 == && number % 7 == 0 ) {
+          //  } else if (number % 5 == && number % 7 == 0 ) {
                 System.out.println("WozaLoza");
-            } else if (number % 3 == 0 && number % 7 = 0 ) ; {
+            //} else if (number % 3 == 0 & number % 7 = 0 ) ; {
                 System.out.println("CozaWoza" + "");
-            } else if  (number 3 % == 0 && number % 5 == 0 ) {
+           // } else if  (number 3 % == 0 && number % 5 == 0 ) {
                 System.out.println("CozaLoza" + "");
-            } else if  ( number % 7 == 0) {
+           // } else if  ( number % 7 == 0) {
                 System.out.println("Woza" + "");
-            } else if (number % 5 == 0 ) {
+          //  } else if (number % 5 == 0 ) {
                 System.out.println("Loza" + "");
-            } else if (number % 3 == 0 ) {
+          //  } else if (number % 3 == 0 ) {
                 System.out.println("Coza" + "");
-            } else {
+          //  } else {
                 System.out.println(number + "");
             }
-            if (number % 11== 0) {
+          //  if (number % 11== 0) {
                 System.out.println();
             }
-            number ++;
+          //  number ++;
         }
     }
-}
+
 
